@@ -1,0 +1,55 @@
+{
+    "name": "hunter-baileys",
+    "version": "2.1.1",
+    "description": "A lightweight, full-featured WhatsApp Web API library for Node.js",
+    "main": "lib/index.js",
+    "homepage": "https://hunter-baileys.obedtech.com",
+    "author": "OBED TECH",
+    "license": "MIT",
+    "keywords": [
+        "whatsapp",
+        "whatsapp-api",
+        "whatsapp-web",
+        "baileys",
+        "whatsapp-bot",
+        "messaging",
+        "chat"
+    ],
+    "dependencies": {
+        "@cacheable/node-cache": "^1.4.0",
+        "@hapi/boom": "^9.1.3",
+        "async-mutex": "^0.5.0",
+        "axios": "^1.6.0",
+        "jimp": "^1.6.0",
+        "libsignal": "github:WhiskeySockets/libsignal-node",
+        "link-preview-js": "^4.0.0",
+        "lodash": "^4.17.21",
+        "music-metadata": "^7.12.3",
+        "node-fetch": "^2.6.1",
+        "pino": "^9.6",
+        "protobufjs": "^7.2.4",
+        "sharp": "^0.34.5",
+        "ws": "^8.13.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Obedweb3/hunter-baileys.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Obedweb3/hunter-baileys/issues"
+    },
+    "engines": {
+        "node": ">=18.0.0",
+        "npm": ">=9.0.0"
+    },
+    "scripts": {
+        "test": "node test.js",
+        "prepublishOnly": "node engine-requirements.js"
+    },
+    "files": [
+        "lib/",
+        "WAProto/",
+        "README.md",
+        "LICENSE"
+    ]
+}
